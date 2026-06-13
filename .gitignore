@@ -1,0 +1,176 @@
+# ============================================
+# DEPENDENCIES
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# ENVIRONMENT FILES (CRITICAL - DON'T COMMIT)
+# ============================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+backend/.env
+frontend/.env
+*.env
+
+# ============================================
+# BUILD OUTPUTS
+# ============================================
+dist/
+build/
+.next/
+out/
+.vite/
+*.tsbuildinfo
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# ============================================
+# BACKEND SPECIFIC
+# ============================================
+backend/node_modules/
+backend/uploads/
+backend/temp/
+backend/uploads/profiles/
+backend/*.log
+backend/logs/
+backend/*.pid
+
+# ============================================
+# FRONTEND SPECIFIC
+# ============================================
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/coverage/
+
+# ============================================
+# DATABASE
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.dump
+*.backup
+postgres-data/
+pgdata/
+
+# ============================================
+# LOGS
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pm2-*.log
+backend/logs/
+frontend/logs/
+
+# ============================================
+# IDE AND EDITOR FILES
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.sln
+.code-workspace
+.cursor/
+.history/
+
+# ============================================
+# OS GENERATED FILES
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# TESTING
+# ============================================
+coverage/
+.nyc_output/
+__tests__/
+__mocks__/
+*.test.js
+*.spec.js
+*.test.jsx
+*.spec.jsx
+
+# ============================================
+# UPLOADS AND TEMPORARY FILES
+# ============================================
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+*.cache
+*.tgz
+*.tar.gz
+*.zip
+
+# ============================================
+# DOCKER
+# ============================================
+*.pid
+docker-compose.override.yml
+docker-data/
+*.dockerignore
+
+# ============================================
+# SECRETS AND CERTIFICATES
+# ============================================
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+secrets/
+keys/
+*.secret
+*.token
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.prettiercache
+.vercel
+.netlify
+
+# ============================================
+# BACKUP FILES
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig

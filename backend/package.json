@@ -1,0 +1,36 @@
+{
+  "name": "amie-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "db:migrate": "knex migrate:latest --knexfile database/knexfile.js",
+    "db:rollback": "knex migrate:rollback --knexfile database/knexfile.js",
+    "db:make": "knex migrate:make --knexfile database/knexfile.js",
+    "seed": "knex seed:run --knexfile database/knexfile.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "google-auth-library": "^10.7.0",
+    "groq-sdk": "^1.2.1",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "knex": "^3.2.10",
+    "lucide-react": "^1.18.0",
+    "mammoth": "^1.12.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^8.0.11",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.21.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "nodemon": "^2.0.22"
+  }
+}
