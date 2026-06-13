@@ -53,10 +53,10 @@ export const LandingPage = () => {
   ];
 
   const stats = [
-    { value: "10,000+", label: "Interviews Conducted", icon: <Users className="w-5 h-5" /> },
-    { value: "95%", label: "Student Satisfaction", icon: <Star className="w-5 h-5" /> },
-    { value: "50+", label: "Companies Trust", icon: <Award className="w-5 h-5" /> },
-    { value: "30min", label: "Average Session", icon: <Clock className="w-5 h-5" /> }
+    { value: "", label: "Interviews ", icon: <Users className="w-5 h-5" /> },
+    { value: "", label: "Student Satisfaction", icon: <Star className="w-5 h-5" /> },
+    { value: "", label: "Companies Trust", icon: <Award className="w-5 h-5" /> },
+    { value: "", label: "Average Session", icon: <Clock className="w-5 h-5" /> }
   ];
 
   return (
@@ -84,16 +84,14 @@ export const LandingPage = () => {
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> AI Technology</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Practice with realistic AI interviews, get instant feedback, and land your dream job.
-              Used by 10,000+ job seekers and 50+ companies.
+              Practice with realistic AI interviews, get instant feedback,<br></br>
+              and land your dream job.
             </p>
             <div className="flex gap-4 justify-center">
               <Link to="/register" className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2 shadow-md">
                 Start Free Practice <ChevronRight className="w-4 h-4" />
               </Link>
-              <button className="px-8 py-3 border-2 border-gray-300 rounded-lg hover:border-blue-600 transition">
-                Watch Demo
-              </button>
+              
             </div>
           </div>
         </div>
